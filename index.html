@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Naveen Mahalingam - Computer Science Engineering student, AI/ML enthusiast and full-stack developer.">
+    <title>Naveen Mahalingam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+    <nav class="nav container">
+        <a href="#home" class="logo">Naveen<span>.</span></a>
+
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+            <button id="menuToggle" class="icon-btn menu-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <p class="hello">Hello, I'm</p>
+            <h1 class="name">Naveen Mahalingam</h1>
+            <h2 class="typed-wrap">I'm a <span id="typed"></span><span class="cursor">|</span></h2>
+
+            <p class="hero-desc">
+                Computer Science undergraduate and aspiring software developer with hands-on
+                experience building AI-driven solutions. Passionate about Artificial Intelligence,
+                Machine Learning, Generative AI, Agentic AI and full-stack development.
+            </p>
+
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Hire Me</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/naveen4707" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/naveen-mahalingam-49a162328/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:naveenmahalingam1@gmail.com">Email</a>
+            </div>
+        </div>
+
+        <div class="hero-art">
+            <div class="avatar">
+                <img src="images.jpg" alt="Naveen Mahalingam" style="width: 50%; height: 50%; border-radius: 50%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-head reveal">
+            <h2>About <span>Me</span></h2>
+            <p>Who I am and what I do</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>
+                    I am a Computer Science Engineering undergraduate at <strong>Kamaraj College of
+                    Engineering and Technology, Virudhunagar</strong>, currently maintaining a CGPA of
+                    <strong>8.52 / 10</strong>.
+                </p>
+                <p>
+                    My work revolves around building AI-powered applications, API-driven workflows,
+                    automation and AI agents. I have developed machine learning models for medical
+                    diagnosis and agriculture, and built a RAG-based chatbot for art learning.
+                </p>
+                <p>
+                    Currently I am building an <strong>AI-powered creative learning platform</strong>
+                    for artists, manga creators, graphic designers, animators and visual storytellers,
+                    featuring an AI Visual Deconstruction Engine. Alongside my studies, I work as a
+                    <strong>freelance artist</strong> creating commissioned artwork.
+                </p>
+            </div>
+
+            <div class="about-info reveal">
+                <div class="info-item"><span>Name</span><strong>Naveen Mahalingam</strong></div>
+                <div class="info-item"><span>Degree</span><strong>B.E. CSE (2024 – 2028)</strong></div>
+                <div class="info-item"><span>College</span><strong>Kamaraj College of Engg. &amp; Tech.</strong></div>
+                <div class="info-item"><span>Location</span><strong>Virudhunagar, Tamil Nadu</strong></div>
+                <div class="info-item"><span>Email</span><strong>naveenmahalingam1@gmail.com</strong></div>
+                <div class="info-item"><span>Focus</span><strong>AI / ML / Full-Stack</strong></div>
+            </div>
+        </div>
+
+        <div class="stats reveal">
+            <div class="stat">
+                <h3 class="counter" data-target="8.52" data-decimal="true">0</h3>
+                <p>CGPA</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter" data-target="4" data-suffix="+">0</h3>
+                <p>ML Models Built</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter" data-target="500" data-suffix="+">0</h3>
+                <p>Users Reached</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter" data-target="10" data-suffix="+">0</h3>
+                <p>Art Commissions</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section alt-bg">
+    <div class="container">
+        <div class="section-head reveal">
+            <h2>Technical <span>Skills</span></h2>
+            <p>Technologies and tools I work with</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-bars reveal">
+                <div class="skill-bar">
+                    <div class="label"><span>Python</span><span>85%</span></div>
+                    <div class="bar"><span data-level="85"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="label"><span>Java</span><span>80%</span></div>
+                    <div class="bar"><span data-level="80"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="label"><span>SQL / MySQL</span><span>80%</span></div>
+                    <div class="bar"><span data-level="80"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="label"><span>React.js</span><span>75%</span></div>
+                    <div class="bar"><span data-level="75"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="label"><span>HTML5 / CSS3</span><span>88%</span></div>
+                    <div class="bar"><span data-level="88"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="label"><span>Node.js / REST APIs</span><span>75%</span></div>
+                    <div class="bar"><span data-level="75"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="label"><span>MongoDB / PostgreSQL</span><span>72%</span></div>
+                    <div class="bar"><span data-level="72"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-tags reveal">
+                <div class="tag-group">
+                    <h4>Languages</h4>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <h4>Frontend</h4>
+                    <div class="tags">
+                        <span class="tag">React.js</span>
+                        <span class="tag">Hooks</span>
+                        <span class="tag">State Management</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <h4>Backend &amp; Database</h4>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="tag-group">
+                    <h4>AI / ML &amp; Tools</h4>
+                    <div class="tags">
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">LLMs</span>
+                        <span class="tag">Git &amp; GitHub</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">NetBeans</span>
+                        <span class="tag">Vercel</span>
+                        <span class="tag">Railway</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section">
+    <div class="container">
+        <div class="section-head reveal">
+            <h2>Professional <span>Experience</span></h2>
+            <p>Where I have applied my skills</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-top">
+                    <h3>AI &amp; ML Intern</h3>
+                    <span class="date">Dec 2025</span>
+                </div>
+                <h4 class="company">Panith Innovation</h4>
+                <ul>
+                    <li>Developed and deployed 4+ machine learning models for medical diagnosis and an
+                        agricultural initiative focused on crop health monitoring and yield prediction.</li>
+                    <li>Engineered data preprocessing pipelines using Pandas and Scikit-learn, improving
+                        model training efficiency by 15%.</li>
+                    <li>Collaborated on a Generative AI application delivering real-time, localized farming
+                        advice to 500+ users during a pilot program.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-top">
+                    <h3>Agentic AI Intern</h3>
+                    <span class="date">Jun 2026</span>
+                </div>
+                <h4 class="company">IT Flex Solutions Pvt. Ltd.</h4>
+                <ul>
+                    <li>Researched and implemented agentic AI workflows focused on reasoning and
+                        tool-calling, and built a chatbot using the RAG model.</li>
+                    <li>Designed and tested prompt engineering strategies for LLMs, improving response
+                        accuracy for automated customer queries by 20%.</li>
+                    <li>Built proof-of-concept applications integrating agentic AI capabilities into
+                        existing software, establishing a clear pathway toward automation.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section alt-bg">
+    <div class="container">
+        <div class="section-head reveal">
+            <h2>My <span>Projects</span></h2>
+            <p>Things I have designed and built</p>
+        </div>
+
+        <div class="filters reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI &amp; ML</button>
+            <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+            <article class="project-card reveal" data-category="ai cv">
+                <div class="project-icon">🦴</div>
+                <h3>Bone Fracture Detection &amp; Diagnostic AI</h3>
+                <p class="project-date">Dec 2025 – Jan 2026</p>
+                <p class="project-desc">
+                    A deep learning system that detects bone fractures from X-ray images and highlights
+                    the affected region for radiologists.
+                </p>
+                <ul class="project-points">
+                    <li>Trained a deep CNN on 15,000+ X-ray images achieving <strong>92% classification accuracy</strong>.</li>
+                    <li>Implemented <strong>Grad-CAM</strong> heatmaps for real-time fracture localization.</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">OpenCV</span>
+                </div>
+                <a class="project-link" href="https://github.com/naveen4707/Bonefracture-AI" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project-card reveal" data-category="ai">
+                <div class="project-icon">🎨</div>
+                <h3>Art Mentor AI — RAG-Based Chatbot</h3>
+                <p class="project-date">Mar 2026 – Jun 2026</p>
+                <p class="project-desc">
+                    A context-aware AI chatbot that gives personalized guidance to art learners.
+                </p>
+                <ul class="project-points">
+                    <li>Built a document retrieval pipeline using <strong>embeddings and a vector database</strong>.</li>
+                    <li>Delivers interactive, personalized coaching on drawing techniques and art concepts.</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">RAG</span>
+                    <span class="tag">LLM</span>
+                    <span class="tag">Vector DB</span>
+                </div>
+                <a class="project-link" href="https://github.com/naveen4707/ArtMentorAI" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project-card reveal" data-category="ai cv">
+                <div class="project-icon">🧩</div>
+                <h3>A Visual Deconstruction Engine</h3>
+                <p class="project-date">Jul 2026 – Ongoing</p>
+                <p class="project-desc">
+                    A computer-vision engine that converts visual references into step-by-step Loomis and
+                    geometric construction drawing guides — the core of my AI art learning platform.
+                </p>
+                <ul class="project-points">
+                    <li>Developed algorithms for facial landmark recognition, perspective calibration,
+                        lighting/shadow extraction and contour mapping.</li>
+                    <li>Integrated Hugging Face vision models to deliver real-time visual feedback to artists.</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">Creative AI</span>
+                    <span class="tag">Hugging Face</span>
+                </div>
+                <a class="project-link" href="https://github.com/naveen4707/ArtMentorAI" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications" class="section">
+    <div class="container">
+        <div class="section-head reveal">
+            <h2>Certifications &amp; <span>Achievements</span></h2>
+            <p>Continuous learning and recognition</p>
+        </div>
+
+        <div class="two-col">
+            <div class="reveal">
+                <h3 class="sub-title">Certifications</h3>
+                <div class="cert-list">
+                    <div class="cert-card"><span class="cert-dot"></span> MongoDB Developer (5x Certified)</div>
+                    <div class="cert-card"><span class="cert-dot"></span> Cisco Networking Certifications (3x)</div>
+                    <div class="cert-card"><span class="cert-dot"></span> Infosys Springboard Certifications (2x)</div>
+                    <div class="cert-card"><span class="cert-dot"></span> IBM Machine Learning Certification</div>
+                </div>
+
+                <h3 class="sub-title" style="margin-top:34px;">Additional Coursework</h3>
+                <div class="cert-list">
+                    <div class="cert-card"><span class="cert-dot"></span> Data Structures using Java</div>
+                    <div class="cert-card"><span class="cert-dot"></span> Mastering Java — Phoenix Softech</div>
+                    <div class="cert-card"><span class="cert-dot"></span> React.js</div>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <h3 class="sub-title">Achievements</h3>
+                <div class="cert-list">
+                    <div class="cert-card"><span class="cert-dot"></span> Participated in a 24-hour Hackathon at Prathyusha College of Engineering and Technology</div>
+                    <div class="cert-card"><span class="cert-dot"></span> Submitted two project proposals under MSME</div>
+                    <div class="cert-card"><span class="cert-dot"></span> Completed 10+ commissioned artworks as a freelance artist</div>
+                    <div class="cert-card"><span class="cert-dot"></span> Class Representative — primary liaison between students and faculty</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section alt-bg">
+    <div class="container">
+        <div class="section-head reveal">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Feel free to reach out for collaborations or opportunities</p>
+        </div>
+
+        <div class="contact-wrap">
+            <div class="contact-info reveal">
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <a href="mailto:naveenmahalingam1@gmail.com">naveenmahalingam1@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <a href="tel:+918778719695">+91 87787 19695</a>
+                </div>
+                <div class="contact-item">
+                    <h4>Location</h4>
+                    <p>Virudhunagar, Tamil Nadu, India</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Profiles</h4>
+                    <a href="https://github.com/naveen4707" target="_blank" rel="noopener">github.com/naveen4707</a><br>
+                    <a href="https://www.linkedin.com/in/naveen-mahalingam-49a162328/" target="_blank" rel="noopener">linkedin.com/in/naveen-mahalingam</a>
+                </div>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    <small class="error" id="nameError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <small class="error" id="emailError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                    <small class="error" id="subjectError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                    <small class="error" id="messageError"></small>
+                </div>
+
+                <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                <p class="form-success" id="formSuccess"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Naveen Mahalingam. All rights reserved.</p>
+        <p>Built with HTML, CSS &amp; JavaScript</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
